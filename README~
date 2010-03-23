@@ -5,7 +5,18 @@ I have trouble with this vs s45-utils and vs Rubymine.
 so here is a proposed procedure:
 a. create github project
 b. clone it to a directory where the s4t-util package is available and a 'peer'
-  b1 -- modify the s4t-make script so it guides me about filenames and module names... 
+  b1 -- modify the s4t-make script so it guides me about filenames and module names...  NO MODIFICATIONS YET
+  tried running the make script
+    sitting in c:\bsmft\RossRuby
+        gave . for default dir
+        gave rossruby for name of ruby file
+        gave Ross for name of module.
+        result was a project in c:\bsmft\RossRuby\Rossruby
+          ... and this was wrong
+        used git hub to record this fact
+        
+        intend remove RossRuby Directory under c:\bmsft\RossRuby and try again...
+
 c. run the make-s4t-project utility which will create the file structure Rakefile and so on.
 d. push the project back to git.
 e. open the project in RubyMine and see how we are doing...
