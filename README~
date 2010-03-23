@@ -5,6 +5,7 @@ I have trouble with this vs s45-utils and vs Rubymine.
 so here is a proposed procedure:
 a. create github project
 b. clone it to a directory where the s4t-util package is available and a 'peer'
+  b1 -- modify the s4t-make script so it guides me about filenames and module names... 
 c. run the make-s4t-project utility which will create the file structure Rakefile and so on.
 d. push the project back to git.
 e. open the project in RubyMine and see how we are doing...
