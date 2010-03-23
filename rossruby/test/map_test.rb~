@@ -2,6 +2,7 @@ require "set-standalone-test-paths.rb" unless $started_from_rakefile
 require 'test/unit'
 require 's4t-utils'
 include S4tUtils
+puts "in test/map-tests.rb"
 
 class MapTest < Test::Unit::TestCase
 ## Require either the particular file under test like this:
@@ -17,7 +18,7 @@ require '../bin/drive_map'
   # Called before every test method runs. Can be used
   # to set up fixture information.
   def setup
-    puts "in test/map-tests.rb"
+    # Do nothing
   end
 
   # Called after every test method runs. Can be used to tear

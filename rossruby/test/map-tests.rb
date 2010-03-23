@@ -8,6 +8,7 @@ class MapTest < Test::Unit::TestCase
 # require 'ross/my-file'
 ## or the entire package:
 require '../bin/drive_map'
+require 'lib/rossruby'
 
   ## You probably want to include your library so that you don't have
   ## to tack Ross:: onto every name, but I won't assume
@@ -17,7 +18,7 @@ require '../bin/drive_map'
   # Called before every test method runs. Can be used
   # to set up fixture information.
   def setup
-    puts "in test/map-tests.rb"
+    puts site_array
   end
 
   # Called after every test method runs. Can be used to tear
@@ -28,7 +29,7 @@ require '../bin/drive_map'
   end
 
 def test_site_array
-  assert_equal(["NX","MA","VT","CT","ME"],site_array,"site_array Malfunction")
+  assert_equal(["NH", "MA", "VT", "CT", "ME"],site_array,"site_array Malfunction")
 end
 end
 
