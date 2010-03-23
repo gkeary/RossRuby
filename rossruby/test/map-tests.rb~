@@ -18,7 +18,7 @@ require 'lib/rossruby'
   # Called before every test method runs. Can be used
   # to set up fixture information.
   def setup
-    puts site_array
+		system("net use z: /delete")
   end
 
   # Called after every test method runs. Can be used to tear
@@ -28,8 +28,12 @@ require 'lib/rossruby'
     # Do nothing
   end
 
-def test_site_array
+def test_map_to_woody
+	
   assert_equal(["NH", "MA", "VT", "CT", "ME"],site_array,"site_array Malfunction")
+end
+def test_user_array
+  assert_equal(6,user_array.size,"user_array has wrong size")
 end
 end
 

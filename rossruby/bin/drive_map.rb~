@@ -35,7 +35,7 @@ class DriveMap
   end
 
   def ping?(ip_string)
-    system "ping " + ip_string + " -n 1"
+    system "ping " + ip_string + "-n 1"
     return $? == 0 ? true : false
   end
 end

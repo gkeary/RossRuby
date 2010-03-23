@@ -18,7 +18,8 @@ require 'lib/rossruby'
   # Called before every test method runs. Can be used
   # to set up fixture information.
   def setup
-		system("net use z: /delete")
+#    puts site_array
+#		puts user_array
   end
 
   # Called after every test method runs. Can be used to tear
@@ -28,19 +29,7 @@ require 'lib/rossruby'
     # Do nothing
   end
 
-def test_map_to_woody
-    dm= DriveMap.new
-
-    #dm.unmap_z
-    ip_string = "192.168.1.230"
-    if dm.ping?(ip_string) then
-      dm.map_z(ip_string)
-    else
-      puts "ip_error: #{ip_string}"
-    end
-
-    #dm.map_z             
-	
+def test_site_array
   assert_equal(["NH", "MA", "VT", "CT", "ME"],site_array,"site_array Malfunction")
 end
 def test_user_array

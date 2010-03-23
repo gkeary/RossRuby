@@ -12,7 +12,7 @@ require 'bin/drive_map'
 # create the HTML documentation.
 module Ross
   def site_array
-    return ["Nx", "MA", "VT", "CT", "ME"]
+    return ["NH", "MA", "VT", "CT", "ME"]
 
   end
   def user_array
