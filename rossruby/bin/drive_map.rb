@@ -19,41 +19,30 @@ include Ross
 class DriveMap
   include Ross
 
-  def map_z(ip_string)
-    #s = ' \\woody\c '
-    #s = ' \\192\.168\.1\.230\c '
-    #system('net use z: ' + s)
-    #system("net use" + " z:" + " \\\\192.168.1.230\\c")
-
-    line = "net use" + " z: " + "\\\\#{ip_string}\\c"
-    puts line
-    system(line)
+  def self.map_z(ip_string)
+    `net use z: \\\\#{ip_string}\\c`
   end
 
-  def unmap_z
-    system('net use z: /delete')
+  def self.unmap_z
+    `net use z: /delete`
   end
 
-  def ping?(ip_string)
-    system "ping " + ip_string + " -n 1"
+  def self.can_ping?(ip_string)
+    `ping #{ip_string} -n 1 -w 10`
     return $? == 0 ? true : false
   end
-end
 
+end
 
 if $0 == __FILE__
   with_pleasant_exceptions do
     dm= DriveMap.new
-
     #dm.unmap_z
     ip_string = "192.168.1.230"
-    if dm.ping?(ip_string) then
+    if dm.can_ping?(ip_string) then
       dm.map_z(ip_string)
     else
       puts "ip_error: #{ip_string}"
     end
-
-    #dm.map_z             
-
   end
 end

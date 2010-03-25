@@ -29,8 +29,6 @@ module S4tUtils
   end
 
   def run_particular_tests(where, which)
-					puts "in run_particular_tests"
-					puts "where: #{where} ... which: #{which}"
     Dir.chdir(where) { 
       test_description = case which
                          when nil, 'all', 'alltests'
