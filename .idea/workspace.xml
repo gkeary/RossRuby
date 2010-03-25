@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="7f864c60-ae9d-4a66-ab80-60077bd33acd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ModuleMixin-tests.rb" afterPath="$PROJECT_DIR$/test/ModuleMixin-tests.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\drive_map.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/map-tests.rb" afterPath="$PROJECT_DIR$/test/map-tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/drive_map.rb" afterPath="$PROJECT_DIR$/bin/drive_map.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map-tests.rb~" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb~" afterPath="$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb~" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\ModuleMixin-tests.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\.drive_map.rb.swp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+    <list default="true" readonly="true" id="d712578f-c19e-467b-a2c2-fe58385c6284" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/Rakefile" afterPath="$PROJECT_DIR$/rossruby/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/bin/drive_map.rb~" afterPath="$PROJECT_DIR$/rossruby/bin/drive_map.rb~" />
+      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\ModuleMixin-tests.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map_test.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby.rb~" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb" afterPath="$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/test/map-tests.rb~" afterPath="$PROJECT_DIR$/rossruby/test/map-tests.rb~" />
+      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map_test.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/test/map-tests.rb" afterPath="$PROJECT_DIR$/rossruby/test/map-tests.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/bin/drive_map.rb" afterPath="$PROJECT_DIR$/rossruby/bin/drive_map.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb~" afterPath="$PROJECT_DIR$/rossruby/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb~" />
+      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\.drive_map.rb.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rossruby/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb" afterPath="$PROJECT_DIR$/rossruby/lib/rossruby/third-party/s4t-utils/rake-task-helpers.rb" />
     </list>
     <ignored path=".idea/workspace.xml" />
-    <ignored path="rossruby.iws" />
+    <ignored path="RossRuby.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,60 +31,42 @@
     <disable_hints />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="rossruby" />
+    <favorites_list name="RossRuby" />
   </component>
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rossruby/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rossruby.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rossruby.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="map-tests.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
+        <entry file="file://$PROJECT_DIR$/rossruby/test/map-tests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="1" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
+            <state line="11" column="14" selection-start="332" selection-end="332" vertical-scroll-proportion="-2.4">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drive_map.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/drive_map.rb">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rossruby/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="28" selection-start="784" selection-end="784" vertical-scroll-proportion="1.0018417">
+            <state line="14" column="11" selection-start="385" selection-end="385" vertical-scroll-proportion="0.2857143">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModuleMixin-tests.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
+      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rossruby/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rakefile-common.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/rakefile-common.rb">
+      <file leaf-file-name="drive_map.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rossruby/bin/drive_map.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="17" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
+            <state line="29" column="11" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,9 +82,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/rossruby.rb" />
-        <option value="$PROJECT_DIR$/test/map-tests.rb" />
-        <option value="$PROJECT_DIR$/test/ModuleMixin-tests.rb" />
+        <option value="$PROJECT_DIR$/rossruby/bin/drive_map.rb" />
+        <option value="$PROJECT_DIR$/rossruby/test/map-tests.rb" />
+        <option value="$PROJECT_DIR$/rossruby/Rakefile" />
       </list>
     </option>
   </component>
@@ -124,7 +104,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers ProjectPane="true" />
+      <showMembers />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -134,20 +114,32 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
+              <option name="myItemId" value="RossRuby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
+              <option name="myItemId" value="RossRuby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rossruby" />
@@ -156,8 +148,12 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
+              <option name="myItemId" value="RossRuby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rossruby" />
@@ -170,8 +166,12 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
+              <option name="myItemId" value="RossRuby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rossruby" />
@@ -184,8 +184,12 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
+              <option name="myItemId" value="RossRuby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rossruby" />
@@ -202,8 +206,12 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
+              <option name="myItemId" value="RossRuby" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RossRuby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rossruby" />
@@ -216,83 +224,31 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="108" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="148" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="130" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="132" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="804" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="811" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="125" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="140" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="ruby.project.structure" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Rake.test">
-    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="rossruby" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+  <component name="RunManager">
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-    </list>
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -315,21 +271,21 @@
     <frame x="10" y="10" width="1260" height="984" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.37136206" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.28288707" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.4959255" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.4959255" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32945284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -361,44 +317,42 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/rossruby/version.rb">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+        <state line="33" column="26" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rossruby/lib/rossruby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/rakefile-common.rb">
+    <entry file="file://$PROJECT_DIR$/rossruby/bin/drive_map.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="17" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
+        <state line="29" column="11" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rossruby.rb">
+    <entry file="file://$PROJECT_DIR$/rossruby/test/map-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+        <state line="11" column="14" selection-start="332" selection-end="332" vertical-scroll-proportion="-2.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
+    <entry file="file://$PROJECT_DIR$/rossruby/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="1" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
+    <entry file="file://$PROJECT_DIR$/rossruby/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/drive_map.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="28" selection-start="784" selection-end="784" vertical-scroll-proportion="1.0018417">
+        <state line="14" column="11" selection-start="385" selection-end="385" vertical-scroll-proportion="0.2857143">
           <folding />
         </state>
       </provider>
