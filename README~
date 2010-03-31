@@ -28,7 +28,11 @@ note:  sit in c:\bsmft\RossRuby and
 	git commit OR 
 	git push origin master
 
-PENDS: e. open the project in RubyMine and see how we are doing...
+DONE: PENDS: e. open the project in RubyMine and see how we are doing...
 
+green bar in rubymine.
+Note: make sure rubymine opens this location: C:\bsmft\RossRuby\rossruby 
+
+Next:  drag all the BAK files for each site
 
 
