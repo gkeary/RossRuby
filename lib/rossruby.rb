@@ -4,13 +4,13 @@ require 's4t-utils'
 # Require all library files in this package here:
 require 'lib/rossruby/version'
 require 'bin/drive_map'
-# require 'rossruby/another-file'
+require 'bin/user.rb'
 
 # Any comments written here will become
 # the documentation for Ross.
 # That will be the first page shown when you 
 # create the HTML documentation.
-module Ross
+module RossRuby
   BACKUP_FOLDER = 'C:/hotspare/backup/'
   APP_ROOT = 'C:/hotspare/SRC/'
   CONFIGS = 'C:/hotspare/SRC/configs/'

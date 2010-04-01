@@ -4,8 +4,8 @@
 ### a self-contained package is found, no matter where the script is
 ### run from.
 require 'pathname'
-$:.unshift((Pathname.new(__FILE__).parent.parent + 'lib'+ 'rossruby').to_s)
-require 'rossruby/third-party/s4t-utils/load-path-auto-adjuster'
+$:.unshift((Pathname.new(__FILE__).parent.parent + 'lib'+ 'ross').to_s)
+require 'ross/third-party/s4t-utils/load-path-auto-adjuster'
 
 
 require 's4t-utils'

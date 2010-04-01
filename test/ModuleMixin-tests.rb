@@ -13,7 +13,7 @@ require 'lib/rossruby'
   ## You probably want to include your library so that you don't have
   ## to tack Ross:: onto every name, but I won't assume
   ## that.
-  include Ross
+  include RossRuby
 
   # Called before every test method runs. Can be used
   # to set up fixture information.

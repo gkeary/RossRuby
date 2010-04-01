@@ -2,18 +2,29 @@
 require 's4t-utils'
 
 # Require all library files in this package here:
-require 'rossruby/version'
+require 'lib/rossruby/version'
 require 'bin/drive_map'
-# require 'rossruby/another-file'
+require 'bin/user.rb'
 
 # Any comments written here will become
 # the documentation for Ross.
 # That will be the first page shown when you 
 # create the HTML documentation.
-module Ross
+module RossRuby
   BACKUP_FOLDER = 'C:/hotspare/backup/'
   APP_ROOT = 'C:/hotspare/SRC/'
   CONFIGS = 'C:/hotspare/SRC/configs/'
+
+
+  ## TODO:  make sense of these mixin methods
+  ## TODO:  mske sense of the tests
+  #@ TODOS: move class BAckup into its own file and refactor
+  ###TODO:  make a test all boxes --using test_mapt_to_woody...
+  ###
+  #
+  # keep it Green .....
+
+  ## todo: make a script which pulls one and/or all of the back files over here....
 
   def sql_sites
     arr = []
@@ -55,5 +66,12 @@ module Ross
           {:k=>'ME',:usr=>'meuser',:pw=>pw,:ip=>'192.168.5.89'}
         ]
     return u
+  end
+   class Backup
+
+    def get_files
+      Dir.chdir(BACKUP_FOLDER)
+      return Dir.glob('*')
+    end
   end
 end

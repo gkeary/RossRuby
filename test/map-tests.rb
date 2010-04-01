@@ -13,7 +13,7 @@ class MappingTest < Test::Unit::TestCase
   ## You probably want to include your library so that you don't have
   ## to tack Ross:: onto every name, but I won't assume
   ## that.
-  include Ross
+  include RossRuby
 
   def has_drive?
       # back tics return STDOUT while calls to system() do not...  !!!
