@@ -12,7 +12,7 @@ include S4tUtils
 
 #include Ross
 
-require 'rossruby'
+require 'lib/rossruby'
 # You probably want to include your module as well, but I won't assume
 # that. 
 # include RossRuby

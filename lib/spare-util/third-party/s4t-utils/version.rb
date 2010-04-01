@@ -3,8 +3,6 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/bmsft for more book information.
 #---
-require 'pathname'
-
-PACKAGE_ROOT = Pathname.new(__FILE__).parent.parent.to_s
-$:.unshift("#{PACKAGE_ROOT}/lib")
-require 'spare-util/third-party/s4t-utils/load-path-auto-adjuster'
+module S4tUtils
+  Version = '0.2.0'
+end

@@ -4,20 +4,20 @@
 ### a self-contained package is found, no matter where the script is
 ### run from.
 require 'pathname'
-$:.unshift((Pathname.new(__FILE__).parent.parent + 'lib'+ 'rossruby').to_s)
-require 'rossruby/third-party/s4t-utils/load-path-auto-adjuster'
+$:.unshift((Pathname.new(__FILE__).parent.parent + 'lib').to_s)
+require 'spare-util/third-party/s4t-utils/load-path-auto-adjuster'
 
 
 require 's4t-utils'
 include S4tUtils
 
-require 'rossruby'
+require 'spare-util'
 # You probably want to include your module as well, but I won't assume
 # that.
-include RossRuby
+ include SpareUtil
 
 class DriveMap
-  include RossRuby
+  include SpareUtil
 
   def self.map_z(ip_string)
     `net use z: \\\\#{ip_string}\\c`

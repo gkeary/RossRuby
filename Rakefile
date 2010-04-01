@@ -6,11 +6,8 @@ $started_from_rakefile=true
 
 require 'pathname'
 PACKAGE_ROOT = Dir.pwd
-puts PACKAGE_ROOT
 $:.unshift("#{PACKAGE_ROOT}/lib")
-
-require 'lib/rossruby/third-party/s4t-utils/load-path-auto-adjuster'
-
+require 'spare-util/third-party/s4t-utils/load-path-auto-adjuster'
 
 require 's4t-utils'
 include S4tUtils
@@ -19,16 +16,16 @@ include S4tUtils
 # this particular project. If you installed using the s4t-utils
 # installation tool, they should have already been set correctly. 
 
-MyFileSystemName='rossruby'  # No ".rb" extension.
-MyModuleName='RossRuby'
+MyFileSystemName='spare-util'  # No ".rb" extension.
+MyModuleName='SpareUtil'
 
 
 # These are the Ruby files 'rake rdoc' searchs for documentation.
 # The following includes all ruby files except for third-party
 # libraries. Change at will.
 
-MyRdocFiles = FileList.new("lib/rossruby.rb",
-                           "lib/rossruby/**/*.rb").exclude("**/third-party/**")
+MyRdocFiles = FileList.new("lib/spare-util.rb",
+                           "lib/spare-util/**/*.rb").exclude("**/third-party/**")
 
 
 require 's4t-utils/rakefile-common'

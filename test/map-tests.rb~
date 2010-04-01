@@ -22,6 +22,7 @@ class MappingTest < Test::Unit::TestCase
 # require 'ross/my-file'
 ## or the entire package:
   require '../bin/drive_map'
+  require '../lib/rossruby'
   require 'spare-util'
 
   ## You probably want to include your library so that you don't have

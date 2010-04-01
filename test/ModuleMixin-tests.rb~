@@ -32,7 +32,7 @@ class MixinTest < Test::Unit::TestCase
   end
 
 def test_site_array
-  assert_equal(["NH", "MA", "CT", "VT", "ME"],sites,"site_array Malfunction")
+  assert_equal(["NH", "MA", "VT", "CT", "ME"],sites,"site_array Malfunction")
 end
 def test_user_array
   assert_equal(6,user_array.size,"user_array has wrong size")
@@ -55,7 +55,9 @@ def test_user_array
   end
 
   def test_sites
-    assert_equal(["NH", "MA", "CT", "VT", "ME"], sites, "Mistake in site_array"
+    assert_equal(
+            ["NH", "MA", "VT", "CT", "ME"],
+            sites, "Mistake in site_array"
     )
   end
 
