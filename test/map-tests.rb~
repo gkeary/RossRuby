@@ -56,7 +56,7 @@ class MappingTest < Test::Unit::TestCase
   end
     
   def test_map_to_woody
-    ip_string = "192.168.1.230"
+    ip_string = "193.168.1.230"
     if DriveMap::can_ping?(ip_string) then
       DriveMap::map_z(ip_string)
       assert_equal(true, has_drive?, "Drive Z missing")
