@@ -29,10 +29,7 @@ class MappingTest < Test::Unit::TestCase
   ## that.
   include SpareUtil
 
-  def has_drive?
-      # back tics return STDOUT while calls to system() do not...  !!!
-      `net use `.include?("Z:")
-    end
+  
 
   def test_bad_ip
     ip_string = "111.11.11.1"
@@ -48,18 +45,18 @@ class MappingTest < Test::Unit::TestCase
   # bad : system("ping 11.1.1.1 -n 1 -w 10")
 
   def test_unmap
-    if ! has_drive?
+    if ! DriveMap::has_drive?
       DriveMap::map_z("192.168.1.230")
     end
     DriveMap::unmap_z
-    assert_equal(false, has_drive?, "NET USE still shows a Z: drive")
+    assert_equal(false, DriveMap::has_drive?, "NET USE still shows a Z: drive")
   end
     
   def test_map_to_woody
     ip_string = "192.168.1.230"
     if DriveMap::can_ping?(ip_string) then
       DriveMap::map_z(ip_string)
-      assert_equal(true, has_drive?, "Drive Z missing")
+      assert_equal(true, DriveMap::has_drive?, "Drive Z missing")
     else
       flunk "IP ERROR for Woody"
     end

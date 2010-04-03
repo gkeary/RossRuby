@@ -31,6 +31,10 @@ class DriveMap
     `ping #{ip_string} -n 1 -w 10`
     return $? == 0 ? true : false
   end
+  def self.has_drive?
+      # back tics return STDOUT while calls to system() do not...  !!!
+      `net use `.include?("Z:")
+    end
 
 end
 

@@ -2,72 +2,64 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d712578f-c19e-467b-a2c2-fe58385c6284" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\load-path-auto-adjuster.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\drive_map.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\README.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rossruby.rb" afterPath="$PROJECT_DIR$/lib/rossruby.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\x.x" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/ModuleMixin-tests.rb" afterPath="$PROJECT_DIR$/test/ModuleMixin-tests.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\hacks.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\version.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/map-tests.rb" afterPath="$PROJECT_DIR$/test/map-tests.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\test-skeleton" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\test-util.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\bin-skeleton" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\version.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\rossruby.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\x.x" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/user.rb" afterPath="$PROJECT_DIR$/bin/user.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\capturing-globals.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\hist.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\lib\rossruby\version.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/backup-tests.rb" afterPath="$PROJECT_DIR$/test/backup-tests.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map_test.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\rakefile-common.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\drive_map.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\rakefile-common.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\command-line.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\claims.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map-tests.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\ModuleMixin-tests.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\friendly-format.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\more-assertions.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\rake-task-helpers.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\ross\.idea\dictionaries\gkeary.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\map-tests.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\lib-skeleton" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\rake-task-helpers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\os.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\Rakefile~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\version.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\version.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\ModuleMixin-tests.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\ross\.idea\ross.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/drive_map.rb" afterPath="$PROJECT_DIR$/bin/drive_map.rb" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\ross\.idea\ross.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/user.rb~" afterPath="$PROJECT_DIR$/bin/user.rb~" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\set-standalone-test-paths.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rossruby.rb~" afterPath="$PROJECT_DIR$/lib/rossruby.rb~" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\bin\.drive_map.rb.swp" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\error-handling.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\setup.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\test\ModuleMixin-tests.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\lib\rossruby\third-party\s4t-utils\svn-file-movement.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\rossruby\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\RossRuby\ross\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/backup-tests.rb~" afterPath="$PROJECT_DIR$/test/backup-tests.rb~" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\Rakefile~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\load-path-auto-adjuster.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\test-util.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\bin\drive_map.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\ross\.idea\dictionaries\gkeary.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\map_test.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\rakefile-common.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\map-tests.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\rake-task-helpers.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\bin\.drive_map.rb.swp" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\lib-skeleton" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\test-skeleton" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\bin\bin-skeleton" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\rake-task-helpers.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\os.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\version.rb~" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\hacks.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\claims.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\friendly-format.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\rakefile-common.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\ModuleMixin-tests.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/drive_map.rb~" afterPath="$PROJECT_DIR$/bin/drive_map.rb~" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\map-tests.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\bin\hist.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\set-standalone-test-paths.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\x.x" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/map-tests.rb" afterPath="$PROJECT_DIR$/test/map-tests.rb" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\version.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\setup.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\capturing-globals.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\.idea\rossruby.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\bin\drive_map.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\ross\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\more-assertions.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\svn-file-movement.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\test\map_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\error-handling.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\rossruby\lib\rossruby\third-party\s4t-utils\command-line.rb" afterPath="" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="RossRuby.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,73 +80,28 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="s4t-utils.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils.rb">
+      <file leaf-file-name="copy-bak.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/copy-bak.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="28" column="2" selection-start="680" selection-end="680" vertical-scroll-proportion="0.32692307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capturing-globals.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/capturing-globals.rb">
+      <file leaf-file-name="copy-tests.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/copy-tests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="56" column="17" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drive_map.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/drive_map.rb">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backup-tests.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/backup-tests.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map-tests.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleMixin-tests.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rossruby.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/rossruby.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.83870965">
+            <state line="23" column="44" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,6 +127,8 @@
         <option value="$PROJECT_DIR$/test/map-tests.rb" />
         <option value="$PROJECT_DIR$/test/ModuleMixin-tests.rb" />
         <option value="$PROJECT_DIR$/lib/rossruby.rb" />
+        <option value="$PROJECT_DIR$/test/copy-tests.rb" />
+        <option value="$PROJECT_DIR$/bin/copy-bak.rb" />
       </list>
     </option>
   </component>
@@ -211,119 +160,21 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RossRuby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Rake.test">
+  <component name="RunManager" selected="Rake.fast">
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="RossRuby" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
@@ -338,6 +189,82 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="true" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="slow" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="RossRuby" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="slow" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="default" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="RossRuby" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="default" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in: x" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="RossRuby" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fast" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="RossRuby" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="fast" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -388,8 +315,12 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.slow" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.default" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda.All in: x" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.fast" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -431,15 +362,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="10" width="1260" height="984" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.5005821" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.6538922" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.6635623" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.6538922" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33772454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -491,56 +422,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rossruby/third-party/s4t-utils/capturing-globals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/drive_map.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+        <state line="19" column="18" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+        <state line="24" column="17" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/backup-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="9" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+        <state line="15" column="18" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="15" column="18" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rossruby.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.83870965">
+        <state line="31" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="44" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/copy-tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="17" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/copy-bak.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="2" selection-start="680" selection-end="680" vertical-scroll-proportion="0.32692307">
           <folding />
         </state>
       </provider>
