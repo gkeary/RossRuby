@@ -5,11 +5,11 @@ require 's4t-utils'
 require 'lib/rossruby/version'
 
 ##
-## consolidate bin biles into process-bak.rb
+## consolidate bin biles into copy-bak.rb
 #require 'bin/drive_map'
 #require 'bin/user.rb'
 
-require 'bin/process-bak.rb'
+require 'bin/copy-bak.rb'
 
 # Any comments written here will become
 # the documentation for Ross.

@@ -21,7 +21,7 @@ class CopyTest < Test::Unit::TestCase
 ## Require either the particular file under test like this:
 # require 'ross/my-file'
 ## or the entire package:
-  require '../bin/copy-bak'
+  require '../bin/process-bak'
   require 'spare-util'
 
   ## You probably want to include your library so that you don't have
