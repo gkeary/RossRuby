@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d712578f-c19e-467b-a2c2-fe58385c6284" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/copy-tests.rb" afterPath="$PROJECT_DIR$/test/copy-tests.rb" />
+      <change type="DELETED" beforePath="C:\bmsft\x\lib\rossruby\version.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\test\map-tests.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\Rakefile~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\lib\spare-util.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\bin\user.rb~" afterPath="" />
+      <change type="MOVED" beforePath="C:\bmsft\x\bin\drive_map.rb" afterPath="$PROJECT_DIR$/bin/drive-map.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/map-tests.rb" afterPath="$PROJECT_DIR$/test/map-tests.rb" />
+      <change type="DELETED" beforePath="C:\bmsft\x\lib\rossruby.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\bin\drive_map.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\README~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\lib\rossruby\third-party\s4t-utils\rakefile-common.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\test\ModuleMixin-tests.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\test\d2-tests.rb~" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\bmsft\x\test\backup-tests.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\s4t-utils\bin\.make-s4t-project.rb.swp" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\lib\rossruby\third-party\s4t-utils\rake-task-helpers.rb~" afterPath="" />
     </list>
-    <ignored path="RossRuby.iws" />
-    <ignored path=".idea/" />
-    <ignored mask="*swp" />
-    <ignored mask="*.*~" />
     <ignored path=".idea/workspace.xml" />
+    <ignored mask="*swp" />
+    <ignored path=".idea/" />
+    <ignored mask="*.*~" />
+    <ignored path="RossRuby.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +46,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="copy-bak.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="copy-bak.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/copy-bak.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="46" selection-start="660" selection-end="660" vertical-scroll-proportion="0.2580645">
+            <state line="31" column="50" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drive-map.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/drive-map.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="18" selection-start="514" selection-end="514" vertical-scroll-proportion="0.27703986">
               <folding />
             </state>
           </provider>
@@ -41,7 +67,7 @@
       <file leaf-file-name="copy-tests.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/copy-tests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="17" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0">
+            <state line="56" column="4" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,52 +137,21 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Favorites" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="recentsLimit" value="5" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rake.fast">
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -348,19 +343,19 @@
     <frame x="10" y="10" width="1260" height="984" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.22634731" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="8.130081E-4" sideWeight="0.66227543" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495935" sideWeight="0.42754492" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="8.130081E-4" sideWeight="0.41317365" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33772454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -416,18 +411,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/drive_map.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="17" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="17" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/backup-tests.rb">
@@ -437,42 +423,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="18" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="18" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rossruby.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+        <state line="31" column="30" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/copy-tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="4" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/copy-tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="17" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="44" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/copy-bak.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="660" selection-end="660" vertical-scroll-proportion="0.2580645">
+        <state line="31" column="50" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/drive-map.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="514" selection-end="514" vertical-scroll-proportion="0.27703986">
           <folding />
         </state>
       </provider>
