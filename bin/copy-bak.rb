@@ -49,7 +49,43 @@ def clear_destination
   FileUtils.rm Dir["c:/hotspare/bak/*.*"]
 end
 
- end
+end
+class DriveMap
+  include SpareUtil
+
+  def self.map_z(ip_string)
+    `net use z: \\\\#{ip_string}\\c`
+  end
+
+  def self.unmap_z
+    `net use z: /delete`
+  end
+
+  def self.can_ping?(ip_string)
+    `ping #{ip_string} -n 1 -w 10`
+    return $? == 0 ? true : false
+  end
+  def self.has_drive?
+      # back tics return STDOUT while calls to system() do not...  !!!
+      `net use `.include?("Z:")
+    end
+
+end
+
+class User
+  include SpareUtil
+  attr_accessor :usr,:pw,:db_name,:site,:dispatch_folder
+=begin
+  def initialize( user, pw, db, site, folder)
+    @user = user
+    @pw = pw
+    @db = db
+    @site = site
+    @folder = folder
+    end
+=end
+
+end
 
 
 if $0 == __FILE__

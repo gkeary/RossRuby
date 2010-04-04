@@ -3,8 +3,13 @@ require 's4t-utils'
 
 # Require all library files in this package here:
 require 'lib/rossruby/version'
-require 'bin/drive_map'
-require 'bin/user.rb'
+
+##
+## consolidate bin biles into copy-bak.rb
+#require 'bin/drive_map'
+#require 'bin/user.rb'
+
+require 'bin/copy-bak.rb'
 
 # Any comments written here will become
 # the documentation for Ross.
