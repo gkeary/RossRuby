@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="d712578f-c19e-467b-a2c2-fe58385c6284" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\bmsft\x\test\d2-xtests.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\bin\user.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\test\map-tests.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\bin\drive-map.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\lib\rossruby.rb~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\.gitignore~" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\test\backup-tests.rbx" afterPath="" />
       <change type="DELETED" beforePath="C:\bmsft\x\bin\drive-map.rbx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\bmsft\x\bin\user.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\bmsft\x\bin\copy-bak.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\bmsft\x\bin\user.rbx" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\bin\drive-map.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\bmsft\x\x.x" afterPath="" />
-      <change type="DELETED" beforePath="C:\bmsft\x\test\copy-tests.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\lib\rossruby.rb~" afterPath="" />
+      <change type="DELETED" beforePath="C:\bmsft\x\.gitignore~" afterPath="" />
     </list>
     <ignored path="RossRuby.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +37,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="map-tests.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="map-tests.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="34" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.7646177">
+            <state line="32" column="13" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModuleMixin-tests.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,7 +205,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Rake.default">
+  <component name="RunManager" selected="Rake.fast">
     <configuration default="false" name="default" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="RossRuby" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
@@ -575,7 +580,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/map-tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="34" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.7646177">
+        <state line="32" column="13" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ModuleMixin-tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
