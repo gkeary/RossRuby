@@ -28,6 +28,11 @@ class Bak
  #puts `net use`
  end
 
+ def get_backup_filelist
+        Dir.chdir(BACKUP_FOLDER)
+        return Dir.glob('*')
+ end
+ 
  def get_just_one
    destination_dir="c:/hotspare/bak"
    #a= "z:/DBbackup/dispatch_ct/*_ct_*.bak"

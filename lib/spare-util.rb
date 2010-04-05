@@ -20,7 +20,7 @@ module SpareUtil
   ## TODO:  make sense of these mixin methods
   ## TODO:  make sense of the tests
   #@ TODO: move class Backup into its own file and refactor
-  ###TODO:  make a test all boxes --using test_mapt_to_woody...
+  ###TODO:  make a test all boxes --using test_map_to_woody...
   ###
   #
   # keep it Green .....
@@ -43,6 +43,8 @@ module SpareUtil
     return %w(dispatch_production dispatch_sutton dispatch_ct dispatch_vt dispatch_me)
   end
 
+=begin
+
   def usr_pw_hash
     pass_word = "123ross321"
     arr = []
@@ -54,18 +56,22 @@ module SpareUtil
     return arr
   end
 
+=end
+
   def applications
     return %w(dispatch1-6.exe dispatch1-6a.exe dispatch1-4.exe dispatch1-4.exe dispatch1-4.exe)
   end
 
-  def ip_by_site(s)
+  def ip_by_site(s= 'nh')
     ip_str = '192.168.'
-      case s
+      case s.upcase
         when 'NH' then ip_str << '1.89'
         when 'MA' then ip_str << '2.89'
         when 'VT' then ip_str << '3.89'
         when 'CT' then ip_str << '4.89'
         when 'ME' then ip_str << '5.89'
+        else
+          ip_str << '1.230'
       end
     return ip_str
   end
@@ -75,6 +81,7 @@ module SpareUtil
       u = [ {:k=>'NH', :usr=>'nhuser', :pw=>pw, :ip=>ip_by_site('NH')},
             {:k=>'MA', :usr=>'mauser', :pw=>pw, :ip=>ip_by_site('MA')},
             {:k=>'VT', :usr=>'vtuser', :pw=>pw, :ip=>ip_by_site('VT')},
+            {:k=>'OLDSTONE', :usr=>'sa', :pw=>pw, :ip=>ip_by_site('OLDSTONE')},
             {:k=>'CT', :usr=>'ctuser', :pw=>pw, :ip=>ip_by_site('CT')},
             {:k=>'CT1', :usr=>'ctuser', :pw=>pw,:ip=>ip_by_site('CT'),
                       :ip1=>'75.149.140.61', :ts=>'RossTS'},
@@ -84,11 +91,17 @@ module SpareUtil
     end
 
 
-    class Backup
 
-      def get_files
+=begin
+
+ class Backup
+              def get_files
         Dir.chdir(BACKUP_FOLDER)
         return Dir.glob('*')
       end
-    end
+
+ end
+
+=end
+
   end

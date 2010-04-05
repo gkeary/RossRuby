@@ -38,7 +38,7 @@ include SpareUtil
   end
 
   def test_backup_count
-   f_array = @b.get_files()
+   f_array = get_backup_filelist()
    assert_equal(9, f_array.size)
   end
 end
