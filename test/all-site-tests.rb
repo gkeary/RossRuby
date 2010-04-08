@@ -17,7 +17,7 @@ include S4tUtils
 ## or the entire package:
  require 'spare-util'
 
-class CopyTest < Test::Unit::TestCase
+class AllSiteTest < Test::Unit::TestCase
 ## Require either the particular file under test like this:
 # require 'ross/my-file'
 ## or the entire package:
@@ -31,28 +31,41 @@ class CopyTest < Test::Unit::TestCase
 
   def setup
     @bk = Bak.new(destination_dir= 'c:\HotSpare\bak')
-    @bk.clear_destination
-    assert_equal(0,Dir["c:/hotspare/bak/*"].size, "Failed to clear out bak directory")
-    @bk.map_woody unless DriveMap::has_drive?
+    @bk.prune_destination('NH')
+    assert_equal(5,count_bak_from_site('ct'), "Failed to prune site files from bak directory")
+    map_this_site('NH') unless DriveMap::has_drive?
   end
 
-  def test_ct_from_woody
+  def count_bak_from_site(site='ct')
+    if (1 == 1)
+      Dir["c:/hotspare/bak/*" + site + "*.*"].size
+    end
+    #return 5
+  end
+
+  def map_this_site(site='ct')
+    foo = config_array[3][:ip]
+    puts "config_array[3][:ip] = #{foo}"
+    DriveMap.map_z(foo)
+  end
+
+  def test_all_files_from_source_box
     @bk.get_site_bak
-    count_bak =  Dir["c:/hotspare/bak/*.*"].size
+    bak_count = count_bak_from_site()
     assert_equal(5,
-                 count_bak,
-                 "Incorrect count #{count_bak} in c:/hotspare/bak"
+                 bak_count,
+                 "Incorrect count #{bak_count} in c:/hotspare/bak"
     )
   end
 
-  def test_copy_one_from_woody
+  def test_copy_one_from_source_box
+    count_before = count_bak_from_site()
     @bk.get_just_one
-    count_bak =  Dir["c:/hotspare/bak/*.*"].size
+    count_after = count_bak_from_site()
+    bak_count =  count_before - count_after +1
     assert_equal(1,
-                 count_bak,
-                 "Incorrect count #{count_bak} in c:/hotspare/bak"
+                 bak_count,
+                 "Incorrect count #{bak_count} in c:/hotspare/bak"
     )
   end
  end
-
-

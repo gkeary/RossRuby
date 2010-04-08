@@ -21,7 +21,7 @@ class MixinTest < Test::Unit::TestCase
   # to set up fixture information.
   def setup
 #    puts site_array
-#		puts user_array
+#		puts config_array
   end
 
   # Called after every test method runs. Can be used to tear
@@ -35,11 +35,11 @@ def test_site_array
   assert_equal(["NH", "MA", "CT", "VT", "ME"],sites,"site_array Malfunction")
 end
 def test_user_array
-  assert_equal(7,user_array.size,"user_array has wrong size")
+  assert_equal(7,config_array.size,"config_array has wrong size")
 end
 
 def test_user_array
-    assert_equal('RossTS',user_array[5][:ts],"CT RDP server not 'RossTS'")
+    assert_equal('RossTS',config_array[5][:ts],"CT RDP server not 'RossTS'")
 
   end
 

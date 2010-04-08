@@ -39,9 +39,6 @@ module SpareUtil
     return %w{NH MA CT VT ME}
   end
 
-  def databases
-    return %w(dispatch_production dispatch_sutton dispatch_ct dispatch_vt dispatch_me)
-  end
 
 =begin
 
@@ -75,17 +72,24 @@ module SpareUtil
       end
     return ip_str
   end
+  def database_hash
+      return { :NH=>'dispatch_production',
+               :MA=>'dispatch_sutton',
+               :CT=>'dispatch_ct',
+               :VT=>'dispatch_vt',
+               :ME=>'dispatch_me'}
+    end
 
-    def user_array
+    def config_array
       pw = '123ross321'
-      u = [ {:k=>'NH', :usr=>'nhuser', :pw=>pw, :ip=>ip_by_site('NH')},
-            {:k=>'MA', :usr=>'mauser', :pw=>pw, :ip=>ip_by_site('MA')},
-            {:k=>'VT', :usr=>'vtuser', :pw=>pw, :ip=>ip_by_site('VT')},
-            {:k=>'OLDSTONE', :usr=>'sa', :pw=>pw, :ip=>ip_by_site('OLDSTONE')},
-            {:k=>'CT', :usr=>'ctuser', :pw=>pw, :ip=>ip_by_site('CT')},
-            {:k=>'CT1', :usr=>'ctuser', :pw=>pw,:ip=>ip_by_site('CT'),
+      u = [ {:k=>'NH', :usr=>'nhuser', :pw=>pw, :ip=>ip_by_site('NH'),:db=>'dispatch_production'},
+            {:k=>'MA', :usr=>'mauser', :pw=>pw, :ip=>ip_by_site('MA'),:db=>'dispatch_sutton'},
+            {:k=>'VT', :usr=>'vtuser', :pw=>pw, :ip=>ip_by_site('VT'),:db=>'dispatch_vt'},
+            {:k=>'OLDSTONE', :usr=>'sa', :pw=>pw, :ip=>ip_by_site('OLDSTONE'),:db=>'dispatch_ct'},
+            {:k=>'CT', :usr=>'ctuser', :pw=>pw, :ip=>ip_by_site('CT'),:db=>'dispatch_ct'},
+            {:k=>'CT1', :usr=>'ctuser', :pw=>pw,:ip=>ip_by_site('CT'),:db=>'dispatch_ct',
                       :ip1=>'75.149.140.61', :ts=>'RossTS'},
-            {:k=>'ME', :usr=>'meuser', :pw=>pw, :ip=>ip_by_site('ME') }
+            {:k=>'ME', :usr=>'meuser', :pw=>pw, :ip=>ip_by_site('ME'),:db=>'dispatch_me' }
       ]
       return u
     end
